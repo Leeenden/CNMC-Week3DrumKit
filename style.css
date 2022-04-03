@@ -61,6 +61,7 @@ h3{
     align-content: space-around; 
     justify-content: center;
     align-self: center;
+    background-image: url(images/background.png)
 }
 /* actual button declaration*/
 #boom, #clap, #hihat, #kick, #openhat, #ride, #snare, #tink, #tom {
@@ -71,10 +72,13 @@ h3{
     margin-left: 5px;
     margin-right: 5px;
     background-color: white;
-    
+    cursor: pointer;
 }
 #boom{
     border: 2px solid coral;
+}
+#boom:hover{
+    box-shadow: 2px coral;
 }
 #boom h2, #boom p{
     color: coral;
